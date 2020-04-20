@@ -1,0 +1,169 @@
+/*Обнуление*/
+* {
+	padding: 0;
+	margin: 0;
+	border: 0;
+}
+
+*,
+*:before,
+*:after {
+	-moz-box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	box-sizing: border-box;
+}
+
+:focus,
+:active {
+	outline: none;
+}
+
+a:focus,
+a:active {
+	outline: none;
+}
+
+nav,
+footer,
+header,
+aside {
+	display: block;
+}
+
+html,
+body {
+	height: 100%;
+	width: 100%;
+	font-size: 100%;
+	line-height: 1;
+	font-size: 14px;
+	-ms-text-size-adjust: 100%;
+	-moz-text-size-adjust: 100%;
+	-webkit-text-size-adjust: 100%;
+	background-color: #eaeaea;
+	font-family: 'Montserrat', sans-serif;
+}
+
+input,
+button,
+textarea {
+	font-family: inherit;
+}
+
+input::-ms-clear {
+	display: none;
+}
+
+button {
+	cursor: pointer;
+}
+
+button::-moz-focus-inner {
+	padding: 0;
+	border: 0;
+}
+
+a,
+a:visited {
+	text-decoration: none;
+}
+
+a:hover {
+	text-decoration: none;
+}
+
+ul li {
+	list-style: none;
+}
+
+img {
+	vertical-align: top;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+	font-size: inherit;
+	font-weight: 400;
+}
+
+/*--------------------*/
+
+.wrapper {
+	padding-left: 15px;
+	padding-right: 15px;
+	max-width: 1170px;
+	margin: 0 auto;
+}
+
+.navigation {
+	padding: 36px 0;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.nav {
+	display: flex;
+	font-weight: 700;
+	text-transform: uppercase;
+}
+
+.nav>li:first-child {
+	border-left: none;
+}
+
+.nav>li {
+	padding-left: 23px;
+	margin-left: 23px;
+	border-left: 2px #494949 solid;
+}
+
+.nav>li>a {
+	color: #494949;
+}
+
+.banner {
+	background-image: url(../img/bg-banner.png);
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center center;
+	color: #fff;
+	padding-top: 260px;
+	padding-bottom: 285px;
+}
+
+.banner_img {
+	position: absolute;
+	right: 0;
+	top: 0;
+}
+
+.banner_h1 {
+	font-size: 50px;
+	margin-bottom: 23px;
+}
+
+.banner_p {
+	font-size: 25px;
+	line-height: 30px;
+	max-width: 570px;
+	font-family: 'Roboto', sans-serif;
+	margin-bottom: 24px;
+}
+
+.banner_btn {
+	display: block;
+	color: #fff;
+	text-decoration: none;
+	font-size: 20px;
+	font-weight: 800;
+	text-transform: uppercase;
+	border: 2px #fff solid;
+	padding: 16px 0px;
+	max-width: 190px;
+	text-align: center;
+}
